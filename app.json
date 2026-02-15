@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Second Brain",
+    "slug": "second-brain-mobile",
+    "scheme": "secondbrain",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.secondbrain",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Second Brain uses your photos when you import screenshots for AI organization."
+      }
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "replace-with-your-eas-project-id"
+      }
+    }
+  }
+}
